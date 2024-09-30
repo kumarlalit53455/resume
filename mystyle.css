@@ -1,0 +1,77 @@
+#container{
+    display: flex;
+}
+.left-side img{
+    border:2px solid red;
+    border-radius: 50%;
+    height: 250px;
+}
+.left-side{    
+    background-color: #163853;
+    color: rgb(255,255,255);
+    padding: 20px;
+    width: 25%;
+    margin-top: 0px;
+}
+.right-side{     
+    background-color: #fff;
+    color: black;
+    margin-top: 20px; 
+    padding: 20px;    
+}
+.both{
+    content: "";
+    clear:both;
+}
+.contact{
+    margin-top: 50px;
+}
+
+.education{
+    margin-top: 50px;
+}
+.skills{
+    margin-top: 50px;
+}
+.languages{
+    margin-top: 50px;
+}
+.heading{
+    text-align: left;
+    padding-left: 100px;
+    margin-top: 70px;
+}
+.profile{
+    margin-top: 100px;
+}
+.projects{
+    margin-top: 50px;
+}
+.experience{
+    margin-top: 50px;
+}
+footer {
+    background-color:rgb(80, 78, 88);
+    color:rgb(249, 248, 248);
+    text-align: center;
+    padding: 1em 0;
+}
+.social-icons a {
+    color:rgb(250, 239, 239);
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color:rgb(87, 87, 225);
+}
+
+a {
+    color:rgb(14, 14, 221);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
